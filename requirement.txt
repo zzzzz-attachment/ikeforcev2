@@ -1,0 +1,8 @@
+# Command to install 
+# pip2 install -r requirement.txt
+pyopenssl==17.2.0
+pyip
+pycrypto
+pycryptodome
+
+
