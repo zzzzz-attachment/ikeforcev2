@@ -1,4 +1,4 @@
-**This project is no longer maintained**
+**This project is no longer maintained** - Updated October 2023
 
 IKEForce  
 Dan Turner <dturner@trustwave.com>  
@@ -12,6 +12,23 @@ Guides can be found here:
 * http://blog.spiderlabs.com/2013/03/cracking-ike-aggressive-mode-hashes-part-1.html  
 * http://blog.spiderlabs.com/2013/04/cracking-ike-missionimprobable-part-2.html  
 * http://blog.spiderlabs.com/2014/09/cracking-ike-missionimprobable-part3.html  
+
+
+PRE-REQUISITES
+============
+
+python2 -m pip install -r requirement.txt or pip2 install -r requirement.txt
+
+If pip2 is not there, you can install it via  References - https://stackoverflow.com/questions/21305524/how-to-install-pip-for-python-2
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+sudo python2 get-pip.py
+
+if pyip is not install, you have manually download the tar files
+https://pypi.org/project/pyip/#files
+tar -xvzf pyip-0.7.tar.gz
+cd pyip-0.7
+python2 setup.py install
+
 
 
 INSTALL
